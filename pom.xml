@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>aad-ue-03</module>
+        <module>aad-ue-03i</module>
     </modules>
 
 
