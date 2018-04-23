@@ -10,7 +10,7 @@ public class LinkBootstrap {
     public static void main(String[] args) {
         Link<String> aktuellesElement = new Link<String>("Test", null);
 
-        aktuellesElement.naechster = new Link<String>("Letzter", null);
+        aktuellesElement.setNaechster(new Link<String>("Letzter", null));
 
         Link<String> anfangLink = new Link<>("Anfang", aktuellesElement);
     }

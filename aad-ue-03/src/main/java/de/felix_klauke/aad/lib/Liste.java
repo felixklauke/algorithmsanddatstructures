@@ -164,20 +164,38 @@ public class Liste<T> {
 
     // Pr�fen, ob Liste leer ist
     public boolean istLeer() {
-        // Diese Methode wird im Praktikum implementiert
-        // TODO
+        return anfang == null;
     }
 
     public void verketten(Liste<T> zweiteListe) {
-        // Diese Methode wird im Praktikum implementiert
-        // TODO
+        Liste<T> result = new Liste<>();
+        result.anfang = anfang;
+        ende = zweiteListe.anfang;
+        result.ende = zweiteListe.ende;
     }
 
     public int loescheWerte(T victim) {
         int anzGeloeschte = 0;
 
-        // Diese Methode wird im Praktikum implementiert
-        // TODO
+        Link<T> vorgaenger = null;
+        Link<T> naechster = anfang;
+        while (naechster != null) {
+            if (naechster.getDaten().equals(victim)) {
+                if (naechster.equals(anfang)) {
+                    anfang = naechster.naechster;
+                    continue;
+                }
+
+                if (vorgaenger == null) {
+                    throw new IllegalStateException();
+                }
+
+                vorgaenger.setNaechster(naechster.naechster);
+            }
+
+            vorgaenger = naechster;
+            naechster = naechster.naechster;
+        }
 
         return anzGeloeschte;
     }

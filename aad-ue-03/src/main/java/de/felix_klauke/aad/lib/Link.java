@@ -18,6 +18,10 @@ public class Link<T> {
         this.daten = daten;
     }
 
+    public void setNaechster(Link<T> naechster) {
+        this.naechster = naechster;
+    }
+
     public String toString() {
         return daten.toString();
     }
