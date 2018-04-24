@@ -1,4 +1,4 @@
-package de.felix_klauke.aad;
+package de.felix_klauke.aad.lib;
 
 import java.util.Arrays;
 

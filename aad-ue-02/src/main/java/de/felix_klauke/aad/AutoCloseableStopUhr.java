@@ -1,5 +1,7 @@
 package de.felix_klauke.aad;
 
+import de.felix_klauke.aad.lib.StopUhr;
+
 /**
  * @author Felix Klauke <info@felix-klauke.de>
  */

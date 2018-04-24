@@ -1,12 +1,13 @@
 package de.felix_klauke.aad;
 
+import de.felix_klauke.aad.lib.Zeitmessung;
+
 /**
  * @author Felix Klauke <info@felix-klauke.de>
  */
 public class Main {
 
     private static final Zeitmessung ZEITMESSUNG = new Zeitmessung();
-    private static final StopUhr STOP_UHR = new StopUhr();
     private static int[] measurements = {1, 10, 100, 200, 1000, 10000, 100000};
 
     public static void main(String[] args) {
