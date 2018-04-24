@@ -10,6 +10,7 @@
     <modules>
         <module>aad-ue-03</module>
         <module>aad-ue-03i</module>
+        <module>aad-ue-02</module>
     </modules>
 
 
