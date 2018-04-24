@@ -1,4 +1,4 @@
-package de.felix_klauke.aadi;
+package de.felix_klauke.aad.aadi;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package de.felix_klauke.aadi;
+package de.felix_klauke.aad.aadi;
 
 /**
  * @author Felix Klauke <info@felix-klauke.de>
